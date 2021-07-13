@@ -1,0 +1,46 @@
+salesforce.LightningComponentBundle testLightningComponentBundle {
+  apiVersion = 49
+  isExposed = true
+  targets = {
+    target = [
+      "lightning__AppPage",
+      "lightning__RecordPage",
+      "lightning__HomePage",
+    ]
+  }
+  targetConfigs = {
+    targetConfig = [
+      {
+        targets = "lightning__RecordPage"
+        objects = [
+          {
+            object = "Contact"
+          },
+        ]
+      },
+      {
+        targets = "lightning__AppPage,lightning__HomePage"
+        supportedFormFactors = {
+          supportedFormFactor = [
+            {
+              type = "Small"
+            },
+          ]
+        }
+      },
+    ]
+  }
+  fullName = "testLightningComponentBundle"
+  lwcResources = {
+    lwcResource = [
+      {
+        source = file("salesforce/Records/LightningComponentBundle/testLightningComponentBundle/testLightningComponentBundle.html")
+        filePath = "lwc/testLightningComponentBundle/testLightningComponentBundle.html"
+      },
+      {
+        source = file("salesforce/Records/LightningComponentBundle/testLightningComponentBundle/testLightningComponentBundle.js")
+        filePath = "lwc/testLightningComponentBundle/testLightningComponentBundle.js"
+      },
+    ]
+  }
+}

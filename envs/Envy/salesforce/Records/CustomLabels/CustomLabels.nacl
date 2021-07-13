@@ -1,0 +1,13 @@
+salesforce.CustomLabels CustomLabels {
+  fullName = "CustomLabels"
+  labels = [
+    {
+      fullName = "test44"
+      categories = "none"
+      language = "en_US"
+      protected = true
+      shortDescription = "44test"
+      value = "Hooray"
+    },
+  ]
+}

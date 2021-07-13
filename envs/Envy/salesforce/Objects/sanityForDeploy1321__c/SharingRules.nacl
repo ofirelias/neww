@@ -1,0 +1,6 @@
+salesforce.SharingRules sanityForDeploy1321__c {
+  fullName = "sanityForDeploy1321__c"
+  _parent = [
+    salesforce.sanityForDeploy1321__c,
+  ]
+}

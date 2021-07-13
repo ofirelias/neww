@@ -1,0 +1,80 @@
+salesforce.Layout CollaborationGroup_Group_Layout@bs {
+  fullName = "CollaborationGroup-Group Layout"
+  layoutSections = [
+    {
+      customLabel = true
+      detailHeading = false
+      editHeading = true
+      label = "Group Details"
+      layoutColumns = [
+        {
+          layoutItems = [
+            {
+              behavior = "Required"
+              field = salesforce.CollaborationGroup.field.Name
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.CollaborationGroup.field.Description
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.CollaborationGroup.field.InformationBody
+            },
+            {
+              behavior = "Readonly"
+              field = salesforce.CollaborationGroup.field.GroupEmail
+            },
+            {
+              behavior = "Required"
+              field = salesforce.CollaborationGroup.field.OwnerId
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.CollaborationGroup.field.IsAutoArchiveDisabled
+            },
+            {
+              behavior = "Required"
+              field = salesforce.CollaborationGroup.field.CollaborationType
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.CollaborationGroup.field.CanHaveGuests
+            },
+            {
+              behavior = "Edit"
+              field = salesforce.CollaborationGroup.field.IsBroadcast
+            },
+          ]
+        },
+      ]
+      style = "OneColumn"
+    },
+    {
+      customLabel = false
+      detailHeading = false
+      editHeading = false
+      style = "CustomLinks"
+    },
+  ]
+  relatedLists = [
+    {
+      relatedList = "RelatedGroupMemberRequestList"
+    },
+    {
+      relatedList = "RelatedGroupMemberList"
+    },
+    {
+      relatedList = "RelatedFileList"
+    },
+    {
+      relatedList = "RelatedGroupRecordList"
+    },
+  ]
+  showEmailCheckbox = false
+  showRunAssignmentRulesCheckbox = false
+  showSubmitAndAttachButton = false
+  _parent = [
+    salesforce.CollaborationGroup,
+  ]
+}

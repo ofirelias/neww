@@ -1,0 +1,6 @@
+salesforce.SharingRules TestModifyCustom__c {
+  fullName = "TestModifyCustom__c"
+  _parent = [
+    salesforce.TestModifyCustom__c,
+  ]
+}

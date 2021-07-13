@@ -1,0 +1,26 @@
+type salesforce.TestDiffObjrgbxmgyqmuzp__c {
+  salesforce.Text beta__c {
+    apiName = "TestDiffObjrgbxmgyqmuzp__c.beta__c"
+    label = "beta1"
+    createable = true
+    updateable = true
+    unique = false
+    caseSensitive = false
+    length = 80
+    queryable = true
+    externalId = false
+    trackTrending = false
+  }
+  salesforce.Text alpha__c {
+    apiName = "TestDiffObjrgbxmgyqmuzp__c.alpha__c"
+    label = "alpha1"
+    createable = true
+    updateable = true
+    unique = false
+    caseSensitive = false
+    length = 80
+    queryable = true
+    externalId = false
+    trackTrending = false
+  }
+}

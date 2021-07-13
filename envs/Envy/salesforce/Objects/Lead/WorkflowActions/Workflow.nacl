@@ -1,0 +1,18 @@
+salesforce.Workflow Lead {
+  fullName = "Lead"
+  alerts = [
+    salesforce.WorkflowAlert.instance.Lead_TestWorkflowAlert@v,
+  ]
+  fieldUpdates = [
+    salesforce.WorkflowFieldUpdate.instance.Lead_TestWorkflowFieldUpdate@v,
+  ]
+  rules = [
+    salesforce.WorkflowRule.instance.Lead_TestWorkflowRule@v,
+  ]
+  tasks = [
+    salesforce.WorkflowTask.instance.Lead_TestWorkflowTask@v,
+  ]
+  _parent = [
+    salesforce.Lead,
+  ]
+}

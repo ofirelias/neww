@@ -1,0 +1,9 @@
+salesforce.Role a_new_role {
+  fullName = "a_new_role"
+  caseAccessLevel = "Edit"
+  contactAccessLevel = "Edit"
+  mayForecastManagerShare = false
+  name = "a new role"
+  opportunityAccessLevel = "Edit"
+  parentRole = salesforce.Role.instance.CEO
+}

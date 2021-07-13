@@ -1,0 +1,42 @@
+salesforce.WorkflowRule Lead_TestWorkflowRule@v {
+  fullName = "Lead.TestWorkflowRule"
+  actions = [
+    {
+      name = salesforce.WorkflowAlert.instance.Lead_TestWorkflowAlert@v
+      type = "Alert"
+    },
+    {
+      name = salesforce.WorkflowFieldUpdate.instance.Lead_TestWorkflowFieldUpdate@v
+      type = "FieldUpdate"
+    },
+    {
+      name = salesforce.WorkflowTask.instance.Lead_TestWorkflowTask@v
+      type = "Task"
+    },
+  ]
+  active = false
+  criteriaItems = [
+    {
+      field = salesforce.Lead.field.Company
+      operation = "notEqual"
+      value = "BLA"
+    },
+  ]
+  description = "E2E Fetch WorkflowRule"
+  triggerType = "onCreateOnly"
+  workflowTimeTriggers = [
+    {
+      actions = [
+        {
+          name = salesforce.WorkflowAlert.instance.Lead_TestWorkflowAlert@v
+          type = "Alert"
+        },
+      ]
+      timeLength = "1"
+      workflowTimeTriggerUnit = "Hours"
+    },
+  ]
+  _parent = [
+    salesforce.Lead,
+  ]
+}

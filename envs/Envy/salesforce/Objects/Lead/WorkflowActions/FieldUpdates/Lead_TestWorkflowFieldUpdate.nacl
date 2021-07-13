@@ -1,0 +1,13 @@
+salesforce.WorkflowFieldUpdate Lead_TestWorkflowFieldUpdate@v {
+  fullName = "Lead.TestWorkflowFieldUpdate"
+  description = "E2E Fetch WorkflowFieldUpdate"
+  field = salesforce.Lead.field.Company
+  name = "TestWorkflowFieldUpdate"
+  notifyAssignee = false
+  operation = "Null"
+  protected = false
+  reevaluateOnChange = false
+  _parent = [
+    salesforce.Lead,
+  ]
+}

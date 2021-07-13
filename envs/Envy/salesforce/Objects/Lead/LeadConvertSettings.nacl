@@ -1,0 +1,20 @@
+salesforce.LeadConvertSettings LeadConvertSettings {
+  fullName = "LeadConvertSettings"
+  allowOwnerChange = false
+  objectMapping = [
+    {
+      inputObject = salesforce.Lead
+      mappingFields = [
+        {
+          inputField = salesforce.Lead.field.CurrentGenerators__c
+          outputField = salesforce.Account.field.Active__c
+        },
+      ]
+      outputObject = salesforce.Account
+    },
+  ]
+  opportunityCreationOptions = "VisibleOptional"
+  _parent = [
+    salesforce.Lead,
+  ]
+}

@@ -1,0 +1,8 @@
+salesforce.ListView sanityForDeploy1321__c_All {
+  fullName = "sanityForDeploy1321__c.All"
+  filterScope = "Everything"
+  label = "All"
+  _parent = [
+    salesforce.sanityForDeploy1321__c,
+  ]
+}

@@ -1,0 +1,6 @@
+salesforce.SharingRules TestModifyFieldAndAnnotation__c {
+  fullName = "TestModifyFieldAndAnnotation__c"
+  _parent = [
+    salesforce.TestModifyFieldAndAnnotation__c,
+  ]
+}

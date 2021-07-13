@@ -1,0 +1,26 @@
+type salesforce.TestModifyCustom__c {
+  salesforce.Text Banana__c {
+    apiName = "TestModifyCustom__c.Banana__c"
+    label = "banana"
+    createable = true
+    updateable = true
+    unique = false
+    caseSensitive = false
+    length = 80
+    queryable = true
+    externalId = false
+    trackTrending = false
+  }
+  salesforce.Text description__c {
+    apiName = "TestModifyCustom__c.description__c"
+    label = "description"
+    createable = true
+    updateable = true
+    unique = false
+    caseSensitive = false
+    length = 80
+    queryable = true
+    externalId = false
+    trackTrending = false
+  }
+}

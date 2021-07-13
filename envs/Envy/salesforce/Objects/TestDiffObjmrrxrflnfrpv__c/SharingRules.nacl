@@ -1,0 +1,6 @@
+salesforce.SharingRules TestDiffObjmrrxrflnfrpv__c {
+  fullName = "TestDiffObjmrrxrflnfrpv__c"
+  _parent = [
+    salesforce.TestDiffObjmrrxrflnfrpv__c,
+  ]
+}

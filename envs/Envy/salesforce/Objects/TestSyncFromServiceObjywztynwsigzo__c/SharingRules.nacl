@@ -1,0 +1,6 @@
+salesforce.SharingRules TestSyncFromServiceObjywztynwsigzo__c {
+  fullName = "TestSyncFromServiceObjywztynwsigzo__c"
+  _parent = [
+    salesforce.TestSyncFromServiceObjywztynwsigzo__c,
+  ]
+}

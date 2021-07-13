@@ -1,0 +1,26 @@
+type salesforce.TestObjrgbxmgyqmuzp__c {
+  salesforce.Text alpha__c {
+    apiName = "TestObjrgbxmgyqmuzp__c.alpha__c"
+    label = "alpha"
+    createable = true
+    updateable = true
+    unique = false
+    caseSensitive = false
+    length = 80
+    queryable = true
+    externalId = false
+    trackTrending = false
+  }
+  salesforce.Text beta__c {
+    apiName = "TestObjrgbxmgyqmuzp__c.beta__c"
+    label = "beta"
+    createable = true
+    updateable = true
+    unique = false
+    caseSensitive = false
+    length = 80
+    queryable = true
+    externalId = false
+    trackTrending = false
+  }
+}

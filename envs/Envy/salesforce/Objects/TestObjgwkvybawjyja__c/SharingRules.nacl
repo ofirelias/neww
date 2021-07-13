@@ -1,0 +1,6 @@
+salesforce.SharingRules TestObjgwkvybawjyja__c {
+  fullName = "TestObjgwkvybawjyja__c"
+  _parent = [
+    salesforce.TestObjgwkvybawjyja__c,
+  ]
+}

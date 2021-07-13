@@ -1,0 +1,6 @@
+salesforce.SharingRules Env2TestObjgwkvybawjyja__c {
+  fullName = "Env2TestObjgwkvybawjyja__c"
+  _parent = [
+    salesforce.Env2TestObjgwkvybawjyja__c,
+  ]
+}

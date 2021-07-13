@@ -1,0 +1,6 @@
+salesforce.SharingRules TestModifyCustomAnnotations__c {
+  fullName = "TestModifyCustomAnnotations__c"
+  _parent = [
+    salesforce.TestModifyCustomAnnotations__c,
+  ]
+}

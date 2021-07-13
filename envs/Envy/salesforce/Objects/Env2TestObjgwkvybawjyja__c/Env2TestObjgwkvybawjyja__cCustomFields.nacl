@@ -1,0 +1,26 @@
+type salesforce.Env2TestObjgwkvybawjyja__c {
+  salesforce.Text alpha__c {
+    apiName = "Env2TestObjgwkvybawjyja__c.alpha__c"
+    label = "alpha"
+    createable = true
+    updateable = true
+    unique = false
+    caseSensitive = false
+    length = 80
+    queryable = true
+    externalId = false
+    trackTrending = false
+  }
+  salesforce.Text beta__c {
+    apiName = "Env2TestObjgwkvybawjyja__c.beta__c"
+    label = "beta"
+    createable = true
+    updateable = true
+    unique = false
+    caseSensitive = false
+    length = 80
+    queryable = true
+    externalId = false
+    trackTrending = false
+  }
+}
